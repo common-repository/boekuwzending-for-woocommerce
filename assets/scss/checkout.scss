@@ -1,0 +1,56 @@
+:root {
+    --buz-pick-up-point-trigger-bgcolor: #f0f0f0;
+    --buz-pick-up-point-trigger-color: #585858;
+    --buz-pick-up-point-trigger-bgcolor-hover: #585858;
+    --buz-pick-up-point-trigger-color-hover: #f0f0f0;
+}
+
+.boekuwzending__pick-up-point__trigger {
+    text-indent: initial;
+    margin-left: 12px;
+
+    a {
+        display: inline-block;
+        font-weight: normal;
+
+        padding: 6px 8px;
+        border-radius: 4px;
+        transition: all .25s ease-in-out;
+
+        background-color: var(--buz-pick-up-point-trigger-bgcolor);
+        color: var(--buz-pick-up-point-trigger-color);
+
+        &:hover {
+            background-color: var(--buz-pick-up-point-trigger-bgcolor-hover);
+            color: var(--buz-pick-up-point-trigger-color-hover);
+        }
+    }
+}
+
+.boekuwzending__pick-up-point__information {
+    display: flex;
+
+    margin: 6px 8px 12px 8px;
+}
+
+.boekuwzending__pick-up-point__information__wrapper {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+}
+
+.boekuwzending__pick-up-point__information__icon {
+    margin: 2px 6px 0;
+}
+
+.boekuwzending__pick-up-point__information__address {
+    opacity: 0.8;
+}
+
+.woocommerce-order-received .boekuwzending__pick-up-point__information {
+    margin-left: 0;
+}
+
+.woocommerce-order-received .boekuwzending__pick-up-point__information__icon {
+    display: none;
+}

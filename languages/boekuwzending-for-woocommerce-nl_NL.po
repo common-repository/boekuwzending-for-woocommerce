@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boekuwzending for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
+"POT-Creation-Date: 2022-10-14 13:16+0200\n"
+"PO-Revision-Date: 2022-10-14 14:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: boekuwzending-for-woocommerce.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: sites\n"
+"X-Poedit-SearchPathExcluded-3: data\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+
+#. Plugin Name of the plugin
+#. Plugin Name of the plugin/theme
+msgid "Boekuwzending for WooCommerce"
+msgstr "Boekuwzending voor WooCommerce"
+
+#. Plugin URI of the plugin
+#. Plugin URI of the plugin/theme
+msgid "https://www.boekuwzending.com/"
+msgstr "https://www.boekuwzending.com"
+
+#. Description of the plugin
+#. Description of the plugin/theme
+msgid "Use the Boekuwzending Shipping Tool"
+msgstr "Gebruik de Boekuwzending Verzend Tool"
+
+#. Author of the plugin
+#. Author of the plugin/theme
+msgid "Boekuwzending.com"
+msgstr "Boekuwzending.com"
+
+#. Author URI of the plugin
+#. Author URI of the plugin/theme
+msgid "https://www.boekuwzending.com"
+msgstr "https://www.boekuwzending.com"
+
+#: boekuwzending-for-woocommerce.php:88 src/Helper/Status.php:90
+msgid ""
+"%s requires the JSON extension for PHP. Enable it on your server or ask your "
+"webhoster to enable it for you."
+msgstr ""
+"%s vereist de JSON extensie voor PHP. Schakel het in op uw server of vraag "
+"uw webhoster om het voor u in te schakelen."
+
+#: boekuwzending-for-woocommerce.php:107
+msgid "%s requires PHP %s or higher. Your PHP version is outdated."
+msgstr "%s vereist PHP %s of hoger. Uw PHP-versie is verouderd."
+
+#: boekuwzending-for-woocommerce.php:128
+msgid ""
+"%s%s is inactive.%s The %sWooCommerce plugin%s must be active for it to "
+"work. Please %sinstall & activate WooCommerce &raquo;%s"
+msgstr ""
+"%s%s is inactief.%s De %sWooCommerce plugin%s moet actief zijn om te kunnen "
+"werken. %sInstalleer & activeer de WooCommerce plugin »%s"
+
+#: boekuwzending-for-woocommerce.php:147
+msgid ""
+"%1$s%s is inactive.%2$s This version requires WooCommerce %s or newer. "
+"Please %3$supdate WooCommerce to version %s or newer &raquo;%4$s"
+msgstr ""
+"%1$sBoekuwzending voor WooCommerce is inactief.%2$s Deze versie vereist "
+"WooCommerce 3.x of nieuwer. %3$sUpdate WooCommerce naar versie 3.x of "
+"nieuwer »%4$s"
+
+#: src/Admin/Hooks.php:179
+msgid "An error occurred while saving the shipping rate"
+msgstr "Er is een fout opgetreden tijdens het opslaan van het verzendtarief"
+
+#: src/Admin/Hooks.php:180
+msgid "An error occurred while saving the pick up point"
+msgstr "Er is een fout opgetreden tijdens het opslaan van het afhaalpunt"
+
+#: src/Admin/Hooks.php:181
+msgid "No available shipping rate was found"
+msgstr "Er is geen beschikbaar verzendtarief gevonden"
+
+#: src/Admin/Hooks.php:182
+msgid "An error occurred"
+msgstr "Er is een fout opgetreden"
+
+#: src/Admin/Hooks.php:183
+msgid "No shipping information was given"
+msgstr "Er is geen verzendinformatie gegeven"
+
+#: src/Admin/Hooks.php:184
+msgid "No shipping postcode was given"
+msgstr "Geen verzendpostcode ingevuld"
+
+#: src/Admin/Hooks.php:185
+msgid "No shipping address was given"
+msgstr "Geen verzendadres ingevuld"
+
+#: src/Admin/Hooks.php:186
+msgid "No shipping city was given"
+msgstr "Geen verzendplaats ingevuld"
+
+#: src/Admin/Hooks.php:187
+msgid "No shipping country was given"
+msgstr "Geen verzendland ingevuld"
+
+#: src/Admin/Hooks.php:188
+msgid "An unknown error occured"
+msgstr "Er is een onbekende fout opgetreden"
+
+#: src/Admin/Hooks.php:315
+#: templates/admin/order/edit/meta/shipment_actions.php:50
+#: templates/admin/order/edit/meta/shipment_actions.php:81
+msgid "Create shipment"
+msgstr "Zending aanmaken"
+
+#: src/Admin/Hooks.php:323 templates/admin/order/edit/meta/order_actions.php:14
+msgid "Export to Boekuwzending.com"
+msgstr "Exporteren naar Boekuwzending.com"
+
+#: src/Admin/Hooks.php:339
+msgid "Retrieve status"
+msgstr "Status ophalen"
+
+#: src/Admin/Hooks.php:353 templates/admin/order/edit/meta/order_actions.php:29
+#: templates/admin/order/edit/meta/shipment_actions.php:26
+msgid "Download Labels"
+msgstr "Verzendlabels downloaden"
+
+#: src/Admin/Hooks.php:367 templates/admin/order/edit/meta/order_actions.php:36
+#: templates/admin/order/edit/meta/shipment_actions.php:86
+msgid "Create additional label"
+msgstr "Extra label aanmaken"
+
+#: src/Admin/Hooks.php:429
+msgid "Error creating order: %s"
+msgstr "Fout bij aanmaken order: %s"
+
+#: src/Admin/Hooks.php:969
+msgid "%sChoose a different shipping method%s"
+msgstr "%sKies een andere verzendmethode%s"
+
+#: src/Admin/Hooks.php:975
+msgid "%sChoose a shipping method%s"
+msgstr "%sVerzendmethode toevoegen%s"
+
+#: src/Admin/Hooks.php:988
+msgid "%sChoose a different Pick up point%s"
+msgstr "%sKies een ander afhaalpunt%s"
+
+#: src/Admin/Hooks.php:994
+msgid "%sChoose Pick up point%s"
+msgstr "%sKies een afhaalpunt%s"
+
+#: src/Admin/Hooks.php:1025
+msgid "Boekuwzending settings"
+msgstr "Boekuwzending Instellingen"
+
+#: src/Admin/Hooks.php:1032
+msgid "Logs"
+msgstr "Logs"
+
+#: src/Admin/Hooks.php:1038
+msgid "Online Documentation"
+msgstr "Online documentatie"
+
+#: src/Admin/Metabox/Order.php:55 src/Settings/Page.php:27
+msgid "Boekuwzending"
+msgstr "Boekuwzending"
+
+#: src/Helper/Api.php:50
+msgid "No Client Id provided. Please set your Boekuwzending API Client Id"
+msgstr "Geen client Id ingevuld. Stel uw Boekuwzending API Client Id in"
+
+#: src/Helper/Api.php:59
+msgid ""
+"No Client Secret provided. Please set your Boekuwzending API Client Secret"
+msgstr ""
+"Geen Client Secret verstrekt. Stel uw Boekuwzending API Client Secret in"
+
+#: src/Helper/Settings.php:249
+msgid "Error"
+msgstr "Fout"
+
+#: src/Helper/Settings.php:261
+msgid "Boekuwzending API status:"
+msgstr "Boekuwzending API status:"
+
+#: src/Helper/Settings.php:262
+msgid "Connected"
+msgstr "Verbonden"
+
+#: src/Helper/Status.php:67
+msgid ""
+"The %s plugin requires at least WooCommerce version %s, you are using "
+"version %s. Please update your WooCommerce plugin."
+msgstr ""
+"De %s plugin vereist ten minste WooCommerce versie %s, je maakt gebruik van "
+"versie %s. Gelieve jouw WooCommerce plugin up te daten."
+
+#: src/Helper/Status.php:80
+msgid ""
+"Boekuwzending API client not installed. Please make sure the plugin is "
+"installed correctly."
+msgstr ""
+"Boekuwzending API-client is niet geïnstalleerd. Zorg ervoor dat de plugin "
+"correct is geïnstalleerd."
+
+#: src/Helper/Status.php:101
+msgid ""
+"%s requires the Curl extension for PHP. Enable it on your server or ask your "
+"webhoster to enable it for you."
+msgstr ""
+"%s vereist de Curl extensie voor PHP. Schakel het in op uw server of vraag "
+"uw webhoster om het voor u in te schakelen."
+
+#: src/Helper/Status.php:116
+msgid "%s requires PHP %s or higher, you have PHP %s. Please upgrade."
+msgstr "%s vereist PHP %s of hoger, je hebt PHP %s. Gelieve te upgraden."
+
+#: src/Helper/Status.php:127
+msgid ""
+"%s requires the PHP extension JSON to be enabled. Please enable the 'json' "
+"extension in your PHP configuration."
+msgstr ""
+"%s vereist dat de PHP extensie JSON wordt ingeschakeld. Schakel de 'json'-"
+"extensie in in uw PHP-configuratie."
+
+#: src/Helper/Status.php:134
+msgid ""
+"%s requires the PHP extension cURL to be enabled. Please enable the 'curl' "
+"extension in your PHP configuration."
+msgstr ""
+"%s vereist dat de PHP-extensie cURL wordt ingeschakeld. Schakel de 'curl' "
+"extensie in in uw PHP-configuratie."
+
+#: src/Method/AbstractMethod.php:89
+msgctxt "Shipping Method"
+msgid "Title"
+msgstr "Titel"
+
+#: src/Method/AbstractMethod.php:91
+msgctxt "Shipping Method"
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dit bepaalt de titel die de gebruiker ziet tijdens het betalen."
+
+#: src/Method/AbstractMethod.php:100
+msgctxt "Shipping Method"
+msgid "Tax status"
+msgstr "BTW-status"
+
+#: src/Method/AbstractMethod.php:105
+msgctxt "Shipping Method"
+msgid "Taxable"
+msgstr "Belastbaar"
+
+#: src/Method/AbstractMethod.php:106
+msgctxt "Tax status"
+msgid "None"
+msgstr "Geen"
+
+#: src/Method/Delivery.php:27
+msgid "Delivery"
+msgstr "Levering"
+
+#: src/Method/Delivery.php:46
+msgid "Fallback Cost"
+msgstr "Kosten"
+
+#: src/Method/Delivery.php:49
+msgid ""
+"Fallback cost for when there is no available rate from Boekuwzending Matrix."
+msgstr ""
+"Kosten voor verzending wanneer er geen beschikbaar tarief is vanuit de "
+"Boekuwzending Matrix."
+
+#: src/Method/PickUpPoint.php:19
+msgid "Pick Up Point"
+msgstr "Afhaalpunt"
+
+#: src/Plugin.php:668
+msgid "Boekuwzending &ndash; Shipment created (%s)."
+msgstr "Boekuwzending &ndash; Zending aangemaakt (%s)."
+
+#: src/Plugin.php:684
+msgid "Boekuwzending &ndash; Additional label created."
+msgstr "Boekuwzending &ndash; Extra label aangemaakt."
+
+#: src/Plugin.php:697
+msgid ""
+"Could not authenticate with the Boekuwzending API, check the debug logs for "
+"more information."
+msgstr ""
+"Kon niet verbinden met de Boekuwzending-API, controleer de debug logs voor "
+"meer informatie."
+
+#: src/Plugin.php:710
+msgid ""
+"An error occurred while creating the shipment, check the debug logs for more "
+"information."
+msgstr ""
+"Er is een fout opgetreden tijdens het aanmaken van de zending, controleer de "
+"debug logs voor meer informatie."
+
+#: src/Plugin.php:1112
+msgid "Boekuwzending &ndash; Label Created: %s"
+msgstr "Boekuwzending &ndash; Label aangemaakt (%s)."
+
+#: src/Plugin.php:1241
+msgid "Boekuwzending &ndash; Order created (%s)."
+msgstr "Boekuwzending &ndash; Order aangemaakt (%s)."
+
+#: src/Settings/Page.php:75
+msgctxt "Boekuwzending Settings"
+msgid "Client ID"
+msgstr "Client ID"
+
+#: src/Settings/Page.php:80
+msgctxt "Boekuwzending Settings"
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: src/Settings/Page.php:99
+msgctxt "Boekuwzending Settings"
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/Settings/Page.php:110
+msgctxt "Boekuwzending Settings"
+msgid "Enable test mode"
+msgstr "Testmodus inschakelen"
+
+#: src/Settings/Page.php:113
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable test mode if you want to test the plugin without using real shipments."
+msgstr ""
+"Schakel de testmodus in als u de plug-in wilt testen zonder echte zendingen "
+"te gebruiken."
+
+#: src/Settings/Page.php:121
+msgctxt "Boekuwzending Settings"
+msgid "Test Client ID"
+msgstr "Test Client ID"
+
+#: src/Settings/Page.php:126
+msgctxt "Boekuwzending Settings"
+msgid "Test Client Secret"
+msgstr "Test Client Secret"
+
+#: src/Settings/Page.php:130
+msgctxt "Boekuwzending Settings"
+msgid "Sync orders"
+msgstr "Sync orders"
+
+#: src/Settings/Page.php:133
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable if you want to process orders from within the Mijn Boekuwzending "
+"platform. If enabled matrices and processing shipments on payments will be "
+"unavailable."
+msgstr ""
+"Schakel deze optie in om orders te verwerken vanuit Mijn Boekuwzending. "
+"Wanneer ingeschakeld, zullen matrixen en zendingen bij het betalen van een "
+"order niet meer worden toegepast."
+
+#: src/Settings/Page.php:141
+msgctxt "Boekuwzending Settings"
+msgid "Status for syncing"
+msgstr "Status om bij te synchroniseren"
+
+#: src/Settings/Page.php:148
+msgctxt "Boekuwzending Settings"
+msgid "Update order status on label creation"
+msgstr "Update orderstatus bij aanmaken label"
+
+#: src/Settings/Page.php:151
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable if you want to move your orders to the status configured below when a "
+"label is created on the Mijn Boekuwzending platform."
+msgstr ""
+"Schakel dit in wanneer orders naar een andere status gezet moeten worden na "
+"het aanmaken van een label op het Mijn Boekuwzending-platform."
+
+#: src/Settings/Page.php:158
+msgctxt "Boekuwzending Settings"
+msgid "Status after label creation"
+msgstr "Status na het aanmaken van een label"
+
+#: src/Settings/Page.php:165
+msgctxt "Boekuwzending Settings"
+msgid "Enable Matrices"
+msgstr "Verzendmatrices gebruiken"
+
+#: src/Settings/Page.php:168
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable if you want to use your configured matrices instead of shipment costs "
+"calculated by WooCommerce."
+msgstr ""
+"Gebruik de verzendmatrixen als u uw klant al wilt laten bepalen met welke "
+"vervoerder de pakketten verstuurd moeten worden. Laat u deze optie uit dan "
+"worden uw eigen verzendmethodes die ingesteld staan in WooCommerce getoond."
+
+#: src/Settings/Page.php:175
+msgctxt "Boekuwzending Settings"
+msgid "Create shipments on payment"
+msgstr "Zending aanmaken bij succesvolle betaling"
+
+#: src/Settings/Page.php:177
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable if you want shipments to be automatically created on a successful "
+"payment. This feature is only available when matrices are enabled."
+msgstr ""
+"Gebruik deze optie als je direct een zending in Boekuwzending wilt aanmaken "
+"na een succesvolle betaling. Deze optie is alleen te gebruiken als je ook "
+"gebruikt maakt van de verzendmatrices."
+
+#: src/Settings/Page.php:184
+msgctxt "Boekuwzending Settings"
+msgid "Default weight"
+msgstr "Standaard gewicht"
+
+#: src/Settings/Page.php:186
+msgctxt "Boekuwzending Settings"
+msgid "In Kilograms"
+msgstr "In kilogrammen"
+
+#: src/Settings/Page.php:193
+msgctxt "Boekuwzending Settings"
+msgid "Default height"
+msgstr "Standaard hoogte"
+
+#: src/Settings/Page.php:195 src/Settings/Page.php:204
+#: src/Settings/Page.php:213
+msgctxt "Boekuwzending Settings"
+msgid "In centimeters"
+msgstr "In centimeters"
+
+#: src/Settings/Page.php:202
+msgctxt "Boekuwzending Settings"
+msgid "Default width"
+msgstr "Standaard breedte"
+
+#: src/Settings/Page.php:211
+msgctxt "Boekuwzending Settings"
+msgid "Default length"
+msgstr "Standaard lengte"
+
+#: src/Settings/Page.php:220
+msgctxt "Boekuwzending Settings"
+msgid "Debug Log"
+msgstr "Debug logboek"
+
+#: src/Settings/Page.php:222
+msgctxt "Boekuwzending Settings"
+msgid "View logs"
+msgstr "Logs weergeven"
+
+#: src/Settings/Page.php:230
+msgctxt "Boekuwzending Settings"
+msgid "Send email to admin on sync error"
+msgstr "Stuur mail naar admin bij synchronisatiefout"
+
+#: src/Settings/Page.php:233
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable if you want to receive an email when the plugin could not send an "
+"order or shipment to the Boekuwzending.com platform."
+msgstr ""
+"Schakel deze optie in wanneer een e-mail verstuurd moet worden wanneer de "
+"plugin een order niet kon doorzetten naar het Boekuwzending.com-platform."
+
+#: src/Settings/Page.php:253
+msgid ""
+"%sLinking your Boekuwzending account was successful.%sDon't forget to save "
+"the WordPress settings with the button below.%s"
+msgstr ""
+"%sHet koppelen van uw Boekuwzending account was succesvol.%s Vergeet niet om "
+"de WordPress instellingen op te slaan met de onderstaande knop.%s"
+
+#: src/Settings/Page.php:273
+msgid ""
+"%sYour Boekuwzending account is not yet connected, click %shere%s to link "
+"your Boekuwzending account.%s"
+msgstr ""
+"%sUw Boekuwzending account is nog niet gekoppeld, klik op %shier%s om je "
+"Boekuwzending account te koppelen%s"
+
+#: templates/admin/order/edit/meta/not_connected.php:5
+msgid ""
+"The plugin is not properly connected to the Boekuwzending API, please check "
+"your settings."
+msgstr ""
+"De plugin is niet verbonden met de Boekuwzending API, controleer je "
+"instellingen."
+
+#: templates/admin/order/edit/meta/no_products.php:4
+msgid ""
+"You need to add one or more product in order to choose a shipping method"
+msgstr ""
+"U moet een of meer producten toevoegen om een verzendmethode te kunnen kiezen"
+
+#: templates/admin/order/edit/meta/no_products.php:8
+msgid "Explanation"
+msgstr "Toelichting"
+
+#: templates/admin/order/edit/meta/no_products.php:9
+msgid "Click on the following buttons at the bottom of the product overview:"
+msgstr "Klik op de volgende knoppen onderaan het artikel overzicht:"
+
+#: templates/admin/order/edit/meta/no_products.php:11
+msgid "Add item(s)"
+msgstr "Item(s) toevoegen"
+
+#: templates/admin/order/edit/meta/no_products.php:12
+msgid "Add product(s)"
+msgstr "Product(en) toevoegen"
+
+#: templates/admin/order/edit/meta/no_products.php:14
+msgid ""
+"It is then possible to add a Boekuwzending shipping method to the order."
+msgstr ""
+"Door op onderstaande knop te klikken kan je een Boekuwzending verzendmethode "
+"toevoegen aan de bestelling."
+
+#: templates/admin/order/edit/meta/order_actions.php:18
+#: templates/admin/order/edit/meta/shipment_actions.php:15
+msgid "Retrieve Status"
+msgstr "Status ophalen"
+
+#: templates/admin/order/edit/meta/order_actions.php:40
+msgid "Create new order"
+msgstr "Maak nieuwe order"
+
+#: templates/admin/order/edit/meta/shipment_actions.php:37
+msgid ""
+"By clicking on the button below you can add a Boekuwzending shipping method "
+"to the order."
+msgstr ""
+"Door op onderstaande knop te klikken kan je een Boekuwzending verzendmethode "
+"toevoegen aan de bestelling."
+
+#: templates/admin/order/edit/meta/shipment_actions.php:46
+msgid "Add shipping method"
+msgstr "Verzendmethode toevoegen"
+
+#: templates/admin/order/edit/meta/shipment_actions.php:57
+msgid "First save the order, then it is possible to create a label."
+msgstr ""
+"Sla de bestelling eerst op, hierna is het mogelijk om een label aan te maken."
+
+#: templates/admin/order/edit/meta/shipment_actions.php:64
+msgid "By clicking on the button below, you can select a pick up point."
+msgstr ""
+"Door op onderstaande knop te klikken, kunt u een afhaalpunt selecteren."
+
+#: templates/admin/order/edit/meta/shipment_actions.php:72
+#: templates/checkout/pick_up_point/trigger.php:15
+msgid "Choose Pick up point"
+msgstr "Kies een afhaalpunt"
+
+#: templates/admin/order/edit/meta/shipment_actions.php:75
+msgid ""
+"By clicking on the button below, the shipment will be created at "
+"Boekuwzending."
+msgstr ""
+"Door op onderstaande knop te klikken wordt de zending aangemaakt bij "
+"Boekuwzending."
+
+#: templates/admin/order/edit/meta/status.php:13
+msgid ""
+"A shipment has been created for this order at Boekuwzending.com, but it has "
+"no labels yet."
+msgstr ""
+"Een zending is aangemaakt bij Boekuwzending.com, maar deze heeft nog geen "
+"labels."
+
+#: templates/admin/order/edit/meta/status.php:38
+msgid "Download shipping label"
+msgstr "Verzendlabel downloaden"
+
+#: templates/admin/order/edit/meta/status.php:38
+msgid "Open Track and Trace website"
+msgstr "Track en Trace website openen"
+
+#: templates/admin/order/edit/meta/status.php:52
+msgid ""
+"This order has been sent to your <a href=\"%s\" target=\"_blank\">Imported "
+"Orders at Boekuwzending.com</a>"
+msgstr ""
+"Deze order is doorgezet naar de <a href=“%s” target=“_blank”>Geïmporteerde "
+"bestellingen bij Boekuwzending.com</a>"
+
+#: templates/admin/order/edit/meta/status.php:57
+msgid ""
+"Your order will be exported once it reaches the configured status. You can "
+"bypass this and force an export using the button below."
+msgstr ""
+"De order zal worden doorgezet zodra de geconfigureerde status is bereikt. Om "
+"de order nu alsnog te exporteren, kik op de knop hieronder."
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:6
+#: templates/admin/order/edit/modal/change-shipping-method.php:6
+msgid "Choose a service"
+msgstr "Kiest een service"
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:16
+#: templates/admin/order/edit/modal/change-shipping-method.php:16
+#: templates/admin/order/edit/modal/get-shipping-services.php:67
+msgid "Service"
+msgstr "Dienst"
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:17
+#: templates/admin/order/edit/modal/change-shipping-method.php:17
+#: templates/admin/order/edit/modal/get-shipping-services.php:68
+msgid "Price"
+msgstr "Prijs"
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:26
+#: templates/admin/order/edit/modal/change-shipping-method.php:26
+#: templates/admin/order/edit/modal/get-shipping-services.php:78
+msgid "Add"
+msgstr "Toevoegen"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:8
+msgid "Give packaging details"
+msgstr "Pakket details opgeven"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:17
+msgid "Total packages"
+msgstr "Aantal pakketten"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:23
+msgid "Package Type"
+msgstr "Pakkettype"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:26
+msgid "Package"
+msgstr "Pakket"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:27
+msgid "Pallet"
+msgstr "Pallet"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:34
+msgid "Total weight"
+msgstr "Gewicht (kg)"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:40
+msgid "Height"
+msgstr "Hoogte (cm)"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:46
+msgid "Width"
+msgstr "Breedte (cm)"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:52
+msgid "Length"
+msgstr "Lengte (cm)"
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:61
+msgid "Get Services"
+msgstr "Verzendmethoden ophalen"
+
+#: templates/checkout/pick_up_point/trigger.php:20
+msgid "Choose a different Pick up point"
+msgstr "Kies een ander afhaalpunt"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "New"
+msgstr "Nieuw"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Scanned"
+msgstr "Gescand"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "In transit"
+msgstr "Onderweg"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Delivered"
+msgstr "Afgeleverd"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Delivered at neighbours"
+msgstr "Afgeleverd bij de buren"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Picked up"
+msgstr "Opgehaald bij afhaalpunt"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "At pickup point"
+msgstr "Bij afhaalpunt"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Return in transit"
+msgstr "Retourzending onderweg"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Return delivered"
+msgstr "Retourzending afgeleverd"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "At customs"
+msgstr "Bij de douane"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Rejected"
+msgstr "Geweigerd"
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Unknown"
+msgstr "Onbekend"
+
+#~ msgid "An error occured"
+#~ msgstr "Er is een fout opgetreden"
+
+#, php-format
+#~ msgid "%sCould not activate plugin%s%s"
+#~ msgstr "%sDe plugin kon niet worden geactiveerd%s%s"
+
+#~ msgid ""
+#~ "Incorrect API credentials or other authentication issue. Please check "
+#~ "your API credentials!"
+#~ msgstr ""
+#~ "Onjuiste API inloggegevens of ander verificatieprobleem. Controleer uw "
+#~ "API inloggegevens!"
+
+#, php-format
+#~ msgid "Shipment status changed to %s on %s at %s"
+#~ msgstr "Zending status is gewijzigd naar %s op %s om %s"
+
+#~ msgid ""
+#~ "Boekuwzending for WooCommerce requires the JSON extension for PHP. Enable "
+#~ "it on your server or ask your webhoster to enable it for you."
+#~ msgstr ""
+#~ "Voor WooCommerce is de JSON-extensie voor PHP vereist. Schakel het in op "
+#~ "uw server of vraag uw webhoster om het voor u in te schakelen."
+
+#~ msgid "Congratulations, you did it!"
+#~ msgstr "Gefeliciteerd, het is je gelukt!"
+
+#, fuzzy
+#~ msgid "Maak gebruik van de Boekuwzending verzendtool"
+#~ msgstr "Maak gebruik van de Boekuwzending verzendtool"
+
+#, fuzzy
+#~ msgid "Refresh Status"
+#~ msgstr "Status vernieuwen"
+
+#~ msgid "Optional cost for local pickup."
+#~ msgstr "Optionele kosten voor de lokale pick-up."

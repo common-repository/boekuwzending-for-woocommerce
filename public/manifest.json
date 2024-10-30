@@ -1,0 +1,11 @@
+{
+  "public/admin/order.min.css": "/public/admin/order.min.css",
+  "public/admin/order.min.js": "/public/admin/order.min.js",
+  "public/admin/settings.min.css": "/public/admin/settings.min.css",
+  "public/admin/settings.min.js": "/public/admin/settings.min.js",
+  "public/checkout.min.css": "/public/checkout.min.css",
+  "public/checkout.min.js": "/public/checkout.min.js",
+  "public/img/icon.png": "/public/img/icon.png",
+  "public/pickup-points-loader.min.js": "/public/pickup-points-loader.min.js",
+  "public/pickup-points-loader.min.css": "/public/pickup-points-loader.min.css"
+}

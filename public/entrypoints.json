@@ -1,0 +1,28 @@
+{
+  "entrypoints": {
+    "admin/order.min": {
+      "css": [
+        "/public/admin/order.min.css"
+      ],
+      "js": [
+        "/public/admin/order.min.js"
+      ]
+    },
+    "admin/settings.min": {
+      "css": [
+        "/public/admin/settings.min.css"
+      ],
+      "js": [
+        "/public/admin/settings.min.js"
+      ]
+    },
+    "checkout.min": {
+      "css": [
+        "/public/checkout.min.css"
+      ],
+      "js": [
+        "/public/checkout.min.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,665 @@
+# Copyright (C) 2022 Boekuwzending.com
+# This file is distributed under the GPLv2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Boekuwzending for WooCommerce 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
+"POT-Creation-Date: 2022-10-14 13:16+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: api@boekuwzending.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: boekuwzending-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#. Plugin Name of the plugin/theme
+msgid "Boekuwzending for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Plugin URI of the plugin/theme
+msgid "https://www.boekuwzending.com/"
+msgstr ""
+
+#. Description of the plugin
+#. Description of the plugin/theme
+msgid "Use the Boekuwzending Shipping Tool"
+msgstr ""
+
+#. Author of the plugin
+#. Author of the plugin/theme
+msgid "Boekuwzending.com"
+msgstr ""
+
+#. Author URI of the plugin
+#. Author URI of the plugin/theme
+msgid "https://www.boekuwzending.com"
+msgstr ""
+
+#: boekuwzending-for-woocommerce.php:88 src/Helper/Status.php:90
+msgid ""
+"%s requires the JSON extension for PHP. Enable it on your server or ask your "
+"webhoster to enable it for you."
+msgstr ""
+
+#: boekuwzending-for-woocommerce.php:107
+msgid "%s requires PHP %s or higher. Your PHP version is outdated."
+msgstr ""
+
+#: boekuwzending-for-woocommerce.php:128
+msgid ""
+"%s%s is inactive.%s The %sWooCommerce plugin%s must be active for it to "
+"work. Please %sinstall & activate WooCommerce &raquo;%s"
+msgstr ""
+
+#: boekuwzending-for-woocommerce.php:147
+msgid ""
+"%1$s%s is inactive.%2$s This version requires WooCommerce %s or newer. "
+"Please %3$supdate WooCommerce to version %s or newer &raquo;%4$s"
+msgstr ""
+
+#: src/Admin/Hooks.php:179
+msgid "An error occurred while saving the shipping rate"
+msgstr ""
+
+#: src/Admin/Hooks.php:180
+msgid "An error occurred while saving the pick up point"
+msgstr ""
+
+#: src/Admin/Hooks.php:181
+msgid "No available shipping rate was found"
+msgstr ""
+
+#: src/Admin/Hooks.php:182
+msgid "An error occurred"
+msgstr ""
+
+#: src/Admin/Hooks.php:183
+msgid "No shipping information was given"
+msgstr ""
+
+#: src/Admin/Hooks.php:184
+msgid "No shipping postcode was given"
+msgstr ""
+
+#: src/Admin/Hooks.php:185
+msgid "No shipping address was given"
+msgstr ""
+
+#: src/Admin/Hooks.php:186
+msgid "No shipping city was given"
+msgstr ""
+
+#: src/Admin/Hooks.php:187
+msgid "No shipping country was given"
+msgstr ""
+
+#: src/Admin/Hooks.php:188
+msgid "An unknown error occured"
+msgstr ""
+
+#: src/Admin/Hooks.php:315
+#: templates/admin/order/edit/meta/shipment_actions.php:50
+#: templates/admin/order/edit/meta/shipment_actions.php:81
+msgid "Create shipment"
+msgstr ""
+
+#: src/Admin/Hooks.php:323 templates/admin/order/edit/meta/order_actions.php:14
+msgid "Export to Boekuwzending.com"
+msgstr ""
+
+#: src/Admin/Hooks.php:339
+msgid "Retrieve status"
+msgstr ""
+
+#: src/Admin/Hooks.php:353 templates/admin/order/edit/meta/order_actions.php:29
+#: templates/admin/order/edit/meta/shipment_actions.php:26
+msgid "Download Labels"
+msgstr ""
+
+#: src/Admin/Hooks.php:367 templates/admin/order/edit/meta/order_actions.php:36
+#: templates/admin/order/edit/meta/shipment_actions.php:86
+msgid "Create additional label"
+msgstr ""
+
+#: src/Admin/Hooks.php:429
+msgid "Error creating order: %s"
+msgstr ""
+
+#: src/Admin/Hooks.php:969
+msgid "%sChoose a different shipping method%s"
+msgstr ""
+
+#: src/Admin/Hooks.php:975
+msgid "%sChoose a shipping method%s"
+msgstr ""
+
+#: src/Admin/Hooks.php:988
+msgid "%sChoose a different Pick up point%s"
+msgstr ""
+
+#: src/Admin/Hooks.php:994
+msgid "%sChoose Pick up point%s"
+msgstr ""
+
+#: src/Admin/Hooks.php:1025
+msgid "Boekuwzending settings"
+msgstr ""
+
+#: src/Admin/Hooks.php:1032
+msgid "Logs"
+msgstr ""
+
+#: src/Admin/Hooks.php:1038
+msgid "Online Documentation"
+msgstr ""
+
+#: src/Admin/Metabox/Order.php:55 src/Settings/Page.php:27
+msgid "Boekuwzending"
+msgstr ""
+
+#: src/Helper/Api.php:50
+msgid "No Client Id provided. Please set your Boekuwzending API Client Id"
+msgstr ""
+
+#: src/Helper/Api.php:59
+msgid ""
+"No Client Secret provided. Please set your Boekuwzending API Client Secret"
+msgstr ""
+
+#: src/Helper/Settings.php:249
+msgid "Error"
+msgstr ""
+
+#: src/Helper/Settings.php:261
+msgid "Boekuwzending API status:"
+msgstr ""
+
+#: src/Helper/Settings.php:262
+msgid "Connected"
+msgstr ""
+
+#: src/Helper/Status.php:67
+msgid ""
+"The %s plugin requires at least WooCommerce version %s, you are using "
+"version %s. Please update your WooCommerce plugin."
+msgstr ""
+
+#: src/Helper/Status.php:80
+msgid ""
+"Boekuwzending API client not installed. Please make sure the plugin is "
+"installed correctly."
+msgstr ""
+
+#: src/Helper/Status.php:101
+msgid ""
+"%s requires the Curl extension for PHP. Enable it on your server or ask your "
+"webhoster to enable it for you."
+msgstr ""
+
+#: src/Helper/Status.php:116
+msgid "%s requires PHP %s or higher, you have PHP %s. Please upgrade."
+msgstr ""
+
+#: src/Helper/Status.php:127
+msgid ""
+"%s requires the PHP extension JSON to be enabled. Please enable the 'json' "
+"extension in your PHP configuration."
+msgstr ""
+
+#: src/Helper/Status.php:134
+msgid ""
+"%s requires the PHP extension cURL to be enabled. Please enable the 'curl' "
+"extension in your PHP configuration."
+msgstr ""
+
+#: src/Method/AbstractMethod.php:89
+msgctxt "Shipping Method"
+msgid "Title"
+msgstr ""
+
+#: src/Method/AbstractMethod.php:91
+msgctxt "Shipping Method"
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: src/Method/AbstractMethod.php:100
+msgctxt "Shipping Method"
+msgid "Tax status"
+msgstr ""
+
+#: src/Method/AbstractMethod.php:105
+msgctxt "Shipping Method"
+msgid "Taxable"
+msgstr ""
+
+#: src/Method/AbstractMethod.php:106
+msgctxt "Tax status"
+msgid "None"
+msgstr ""
+
+#: src/Method/Delivery.php:27
+msgid "Delivery"
+msgstr ""
+
+#: src/Method/Delivery.php:46
+msgid "Fallback Cost"
+msgstr ""
+
+#: src/Method/Delivery.php:49
+msgid ""
+"Fallback cost for when there is no available rate from Boekuwzending Matrix."
+msgstr ""
+
+#: src/Method/PickUpPoint.php:19
+msgid "Pick Up Point"
+msgstr ""
+
+#: src/Plugin.php:668
+msgid "Boekuwzending &ndash; Shipment created (%s)."
+msgstr ""
+
+#: src/Plugin.php:684
+msgid "Boekuwzending &ndash; Additional label created."
+msgstr ""
+
+#: src/Plugin.php:697
+msgid ""
+"Could not authenticate with the Boekuwzending API, check the debug logs for "
+"more information."
+msgstr ""
+
+#: src/Plugin.php:710
+msgid ""
+"An error occurred while creating the shipment, check the debug logs for more "
+"information."
+msgstr ""
+
+#: src/Plugin.php:1112
+msgid "Boekuwzending &ndash; Label Created: %s"
+msgstr ""
+
+#: src/Plugin.php:1241
+msgid "Boekuwzending &ndash; Order created (%s)."
+msgstr ""
+
+#: src/Settings/Page.php:75
+msgctxt "Boekuwzending Settings"
+msgid "Client ID"
+msgstr ""
+
+#: src/Settings/Page.php:80
+msgctxt "Boekuwzending Settings"
+msgid "Client Secret"
+msgstr ""
+
+#: src/Settings/Page.php:99
+msgctxt "Boekuwzending Settings"
+msgid "Settings"
+msgstr ""
+
+#: src/Settings/Page.php:110
+msgctxt "Boekuwzending Settings"
+msgid "Enable test mode"
+msgstr ""
+
+#: src/Settings/Page.php:113
+msgctxt "Boekuwzending Settings"
+msgid ""
+"Enable test mode if you want to test the plugin without using real shipments."
+msgstr ""
+
+#: src/Settings/Page.php:121
+msgctxt "Boekuwzending Settings"
+msgid "Test Client ID"
+msgstr ""
+
+#: src/Settings/Page.php:126
+msgctxt "Boekuwzending Settings"
+msgid "Test Client Secret"
+msgstr ""
+
+#: src/Settings/Page.php:130
+msgctxt "Boekuwzending Settings"
+msgid "Sync orders"
+msgstr ""
+
+#: src/Settings/Page.php:133
+msgctxt "Boekuwzending Settings"
+msgid "Enable if you want to process orders from within the Mijn Boekuwzending "
+"platform. If enabled matrices and processing shipments on payments will be unavailable."
+msgstr ""
+
+#: src/Settings/Page.php:141
+msgctxt "Boekuwzending Settings"
+msgid "Status for syncing"
+msgstr ""
+
+#: src/Settings/Page.php:148
+msgctxt "Boekuwzending Settings"
+msgid "Update order status on label creation"
+msgstr ""
+
+#: src/Settings/Page.php:151
+msgctxt "Boekuwzending Settings"
+msgid "Enable if you want to move your orders to the status configured below when a "
+"label is created on the Mijn Boekuwzending platform."
+msgstr ""
+
+#: src/Settings/Page.php:158
+msgctxt "Boekuwzending Settings"
+msgid "Status after label creation"
+msgstr ""
+
+#: src/Settings/Page.php:165
+msgctxt "Boekuwzending Settings"
+msgid "Enable Matrices"
+msgstr ""
+
+#: src/Settings/Page.php:168
+msgctxt "Boekuwzending Settings"
+msgid "Enable if you want to use your configured matrices instead of shipment costs "
+"calculated by WooCommerce."
+msgstr ""
+
+#: src/Settings/Page.php:175
+msgctxt "Boekuwzending Settings"
+msgid "Create shipments on payment"
+msgstr ""
+
+#: src/Settings/Page.php:177
+msgctxt "Boekuwzending Settings"
+msgid "Enable if you want shipments to be automatically created on a successful "
+"payment. This feature is only available when matrices are enabled."
+msgstr ""
+
+#: src/Settings/Page.php:184
+msgctxt "Boekuwzending Settings"
+msgid "Default weight"
+msgstr ""
+
+#: src/Settings/Page.php:186
+msgctxt "Boekuwzending Settings"
+msgid "In Kilograms"
+msgstr ""
+
+#: src/Settings/Page.php:193
+msgctxt "Boekuwzending Settings"
+msgid "Default height"
+msgstr ""
+
+#: src/Settings/Page.php:195 src/Settings/Page.php:204
+#: src/Settings/Page.php:213
+msgctxt "Boekuwzending Settings"
+msgid "In centimeters"
+msgstr ""
+
+#: src/Settings/Page.php:202
+msgctxt "Boekuwzending Settings"
+msgid "Default width"
+msgstr ""
+
+#: src/Settings/Page.php:211
+msgctxt "Boekuwzending Settings"
+msgid "Default length"
+msgstr ""
+
+#: src/Settings/Page.php:220
+msgctxt "Boekuwzending Settings"
+msgid "Debug Log"
+msgstr ""
+
+#: src/Settings/Page.php:222
+msgctxt "Boekuwzending Settings"
+msgid "View logs"
+msgstr ""
+
+#: src/Settings/Page.php:230
+msgctxt "Boekuwzending Settings"
+msgid "Send email to admin on sync error"
+msgstr ""
+
+#: src/Settings/Page.php:233
+msgctxt "Boekuwzending Settings"
+msgid "Enable if you want to receive an email when the plugin could not send an "
+"order or shipment to the Boekuwzending.com platform."
+msgstr ""
+
+#: src/Settings/Page.php:253
+msgid ""
+"%sLinking your Boekuwzending account was successful.%sDon't forget to save "
+"the WordPress settings with the button below.%s"
+msgstr ""
+
+#: src/Settings/Page.php:273
+msgid ""
+"%sYour Boekuwzending account is not yet connected, click %shere%s to link "
+"your Boekuwzending account.%s"
+msgstr ""
+
+#: templates/admin/order/edit/meta/not_connected.php:5
+msgid ""
+"The plugin is not properly connected to the Boekuwzending API, please check "
+"your settings."
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:4
+msgid ""
+"You need to add one or more product in order to choose a shipping method"
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:8
+msgid "Explanation"
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:9
+msgid "Click on the following buttons at the bottom of the product overview:"
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:11
+msgid "Add item(s)"
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:12
+msgid "Add product(s)"
+msgstr ""
+
+#: templates/admin/order/edit/meta/no_products.php:14
+msgid ""
+"It is then possible to add a Boekuwzending shipping method to the order."
+msgstr ""
+
+#: templates/admin/order/edit/meta/order_actions.php:18
+#: templates/admin/order/edit/meta/shipment_actions.php:15
+msgid "Retrieve Status"
+msgstr ""
+
+#: templates/admin/order/edit/meta/order_actions.php:40
+msgid "Create new order"
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:37
+msgid ""
+"By clicking on the button below you can add a Boekuwzending shipping method "
+"to the order."
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:46
+msgid "Add shipping method"
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:57
+msgid "First save the order, then it is possible to create a label."
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:64
+msgid "By clicking on the button below, you can select a pick up point."
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:72
+#: templates/checkout/pick_up_point/trigger.php:15
+msgid "Choose Pick up point"
+msgstr ""
+
+#: templates/admin/order/edit/meta/shipment_actions.php:75
+msgid ""
+"By clicking on the button below, the shipment will be created at "
+"Boekuwzending."
+msgstr ""
+
+#: templates/admin/order/edit/meta/status.php:13
+msgid ""
+"A shipment has been created for this order at Boekuwzending.com, but it has "
+"no labels yet."
+msgstr ""
+
+#: templates/admin/order/edit/meta/status.php:38
+msgid "Download shipping label"
+msgstr ""
+
+#: templates/admin/order/edit/meta/status.php:38
+msgid "Open Track and Trace website"
+msgstr ""
+
+#: templates/admin/order/edit/meta/status.php:52
+msgid ""
+"This order has been sent to your <a href=\"%s\" target=\"_blank\">Imported "
+"Orders at Boekuwzending.com</a>"
+msgstr ""
+
+#: templates/admin/order/edit/meta/status.php:57
+msgid ""
+"Your order will be exported once it reaches the configured status. You can "
+"bypass this and force an export using the button below."
+msgstr ""
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:6
+#: templates/admin/order/edit/modal/change-shipping-method.php:6
+msgid "Choose a service"
+msgstr ""
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:16
+#: templates/admin/order/edit/modal/change-shipping-method.php:16
+#: templates/admin/order/edit/modal/get-shipping-services.php:67
+msgid "Service"
+msgstr ""
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:17
+#: templates/admin/order/edit/modal/change-shipping-method.php:17
+#: templates/admin/order/edit/modal/get-shipping-services.php:68
+msgid "Price"
+msgstr ""
+
+#: templates/admin/order/edit/modal/add-shipping-method.php:26
+#: templates/admin/order/edit/modal/change-shipping-method.php:26
+#: templates/admin/order/edit/modal/get-shipping-services.php:78
+msgid "Add"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:8
+msgid "Give packaging details"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:17
+msgid "Total packages"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:23
+msgid "Package Type"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:26
+msgid "Package"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:27
+msgid "Pallet"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:34
+msgid "Total weight"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:40
+msgid "Height"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:46
+msgid "Width"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:52
+msgid "Length"
+msgstr ""
+
+#: templates/admin/order/edit/modal/get-shipping-services.php:61
+msgid "Get Services"
+msgstr ""
+
+#: templates/checkout/pick_up_point/trigger.php:20
+msgid "Choose a different Pick up point"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "New"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Scanned"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "In transit"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Delivered"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Delivered at neighbours"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Picked up"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "At pickup point"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Return in transit"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Return delivered"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "At customs"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Rejected"
+msgstr ""
+
+#: scr/Plugin.php:1282
+msgctxt "LabelStatus"
+msgid "Unknown"
+msgstr ""

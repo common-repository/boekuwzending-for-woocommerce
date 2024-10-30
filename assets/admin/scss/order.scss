@@ -1,0 +1,161 @@
+.boekuwzending__order-overview__pick-up-point {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  margin: 4px 0 0 0;
+}
+
+.boekuwzending__order-overview__pick-up-point__icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.boekuwzending__order-overview__pick-up-point__wrapper {
+  display: flex;
+  line-height: 1;
+}
+
+.boekuwzending__order-overview__pick-up-point__address {
+  display: flex;
+}
+
+.boekuwzending__order-overview__pick-up-point__address > div {
+  margin-left: 3px;
+}
+
+.boekuwzending__pick-up-point__information {
+  display: flex;
+  font-size: 10px;
+  margin: 6px 8px 0 0;
+}
+
+.boekuwzending__pick-up-point__information__wrapper {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+}
+
+.boekuwzending__pick-up-point__information__icon {
+  margin: 2px 6px 0 0;
+}
+
+.boekuwzending__pick-up-point__information__address {
+  opacity: 0.8;
+}
+
+#woocommerce-order-boekuwzending {
+  .status {
+    padding: 6px 10px;
+  }
+}
+
+#poststuff {
+  #woocommerce-order-boekuwzending {
+    .inside {
+      margin: 0;
+      padding: 0;
+
+      ul.boekuwzending_actions {
+        li {
+          padding: 6px 10px;
+        }
+      }
+    }
+
+    .status {
+      .status-line {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 6px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #ddd;
+
+        .status-tracking-number {
+          margin-bottom: 6px;
+        }
+
+        .status-tracking-text {
+          position: absolute;
+
+          top: 0;
+          right: 0;
+
+          background-color: #f0f0f0;
+          border: 1px solid #d1d1d1;
+          border-radius: 4px;
+          padding: 2px 6px;
+          text-align: center;
+          text-transform: lowercase;
+          font-size: 11px;
+        }
+
+        .status-tracking-actions {
+          font-size: 11px;
+        }
+
+        &:last-child {
+          border-bottom: 0;
+          padding-bottom: 0;
+          margin-bottom: 4px;
+        }
+      }
+
+      & + .boekuwzending_actions li {
+        display: flex;
+        border-top: 1px solid #ddd;
+        align-items: center;
+      }
+
+      & + .boekuwzending_actions .button {
+        display: flex;
+        margin-left: auto;
+      }
+    }
+
+    .no-products {
+      padding: 6px 10px;
+      font-style: italic;
+
+      p {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.boekuwzending_actions {
+  margin: 0;
+
+  li {
+    margin: 0;
+
+    .boekuwzending-refresh-status,
+    .boekuwzending-download-labels {
+      color: #999;
+      line-height: 1;
+      margin-left: 5px;
+
+      &:hover {
+        color: #333;
+      }
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    .boekuwzending-download-labels {
+      margin-left: 5px;
+    }
+
+    p {
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  }
+}
